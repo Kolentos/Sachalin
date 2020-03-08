@@ -105,6 +105,52 @@
               </div>
              
              </div>
+                
+          
+          
+          
+          
+       <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+      </div>
+          
+    </div>
+      
+      
+  </div>
+</div>
+    
+      <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content" style="text-align:left; padding: 10px;"> 
+          
+          <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Приветственное слово</h5>
+                <button type="button" class="close" data-dismiss="modal_a" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+          </div>
+          
+          <div class="modal-body">
+          
+                <br>З123123123213123213123123123123десь вы увидите много фотографий, отражающих историю  и географию  Сахалинской области. «Визуализация» островного региона, одно из главных направлений сайта. 
+                        <br>    Мы будем вам рассказывать о географии региона, о путешествиях, встречах с интересными людьми. Покажем природные и туристические объекты.  Отразим свою точку зрения по вопросам экономики и экологии.
+                        <br>Историко-краеведческий раздел, включит архивные материалы, так и
+            современное описание интересных событий прошлого. Предлагаем полистать фотоальбом «Неизвестная Россия».          
+                              <br>  Вы увидите видеофильмы и видео лекции. В частности, на сайте будут размещены видеоролики участников областного кинофестиваля любительских фильмов о путешествиях по Сахалину «Анивский экран», который пройдёт при поддержке регионального отделения «Русского географического общества».
+                  <br> Своё согласие по сотрудничеству дали члены Сахалинского отделения «Русского географического общества».
+
+                      <div style="width:100%; text-align: right;">
+                           <br><br>Руководитель проекта,  
+                             <br>член Сахалинского отделения 
+                     <br>Русского географического общества                           
+                         <br>Владимир Чуйко
+              </div>
+             
+             </div>
+                
+          
+          
           
           
        <div class="modal-footer">
@@ -127,10 +173,12 @@
       <div style="width:100%;height:250px;display:inline-block;text-align: center;">
         <div class="container" style="margin-right:0px;margin-left:0px;padding-left: 0px;padding-right:0px;display: inline-block;">
    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  
+       
   <div class="carousel-inner">
     <div class="carousel-item active">
         <div>
-            <table style="background-color: black; width:100%;"cclass="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-xl" >
+            <table style="background-color: black; width:100%;"class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-xl" >
             <tr>
                 <td valign="top">
             <img src="gg.jpeg" style="height:250px;">
@@ -149,7 +197,28 @@
         </div>
     </div>
     <div class="carousel-item" style="width:100%;height:250px;">
-      <img src="grey.png" class="d-block w-100" alt="...">
+         <div class="container" style="margin-right:0px;margin-left:0px;padding-left: 0px;padding-right:0px;display: inline-block;">
+         <div class="carousel-item active">
+        <div>
+            <table style="background-color: black; width:100%;"cclass="btn btn-primary" data-toggle="modal_a" data-target=".bd-example-modal-xl" >
+            <tr>
+                <td valign="top">
+            <img src="ponomarev.png" style="height:250px;">
+                    </td>
+                    <td align="middle">
+                        <!-- Extra large modal -->
+                        <div style="color:white; padding-right: 50px;">В настоящее время в Сахалинской области при наличии достаточно большого количества просветительских учреждений исторической направленности отсутствует информационный блок, который концентрировал бы просветительские решения краеведческого характера.</div>
+                                        <div style="width: 100%; text-align: right;color:#ffdf7e;margin-top: 10px; padding-right: 20px;">
+                                            читать полность
+                                        </div>
+
+
+</td>
+        </tr>
+            </table>
+        </div>
+    </div>
+        
     </div>
     <div class="carousel-item"  style="width:100%;height:250px;">
       <img src="grey.png" class="d-block w-100" alt="...">
