@@ -27,6 +27,17 @@
                 .bd-placeholder-img-lg {
                   font-size: 3.5rem;
                 }
+                 .articulsforms{
+                      font-size:20px;
+                  }
+                  .articulsheader{
+                      font-size:50px;
+                  }
+              }
+              @media (max-width:767px){
+                  .articulsforms{
+                      
+                  }
               }
             </style>
              <link href="album.css" rel="stylesheet">
