@@ -49,7 +49,7 @@
                 <div class="container" style="">
                     <ul class="nav flex-column">
               <li class="nav-item">
-                <a class="nav-link" href="#" style="text-align:left;color:7fffff;">Неизвестная Россия</a>
+                  <a class="nav-link" href="bookforrussia.php" style="text-align:left;color:7fffff;">Неизвестная Россия</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#" style="text-align:left;color:7fffff;">Великая победа</a>

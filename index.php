@@ -1,38 +1,4 @@
-<html>
-<head>
-	<title>Сахалин</title>
-         <script src="js/jQuery.js"></script>
-        <link rel="stylesheet" href="css/bootstrap.css" >
-        <script src="js/bootstrap.js"></script>      
-        <script src="js/popper.js"></script>
-        <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="apple-touch-icon" href="/docs/4.4/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-        <link rel="icon" href="/docs/4.4/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-        <link rel="icon" href="/docs/4.4/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-        
-        <link rel="mask-icon" href="/docs/4.4/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
-        <link rel="icon" href="/docs/4.4/assets/img/favicons/favicon.ico">
-          <style>
-              .bd-placeholder-img {
-                font-size: 1.125rem;
-                text-anchor: middle;
-                -webkit-user-select: none;
-                -moz-user-select: none;
-                -ms-user-select: none;
-                user-select: none;
-              }
 
-              @media (min-width: 768px) {
-                .bd-placeholder-img-lg {
-                  font-size: 3.5rem;
-                }
-              }
-            </style>
-             <link href="album.css" rel="stylesheet">
-
-</head>
-<body style="text-align: center; background-color:2b6a7f ">
     
 
 
