@@ -1,53 +1,4 @@
 
-    <!-- Custom styles for this template -->
-    <!-- это топ или что-то вроде того 
-    Надо потом доделать  -->
-    <html>
-<head>
-	<title>Сахалин</title>
-         <script type="text/javascript" src="http://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=WmRt0O-XTbckPYlm4FOUgHi0hNXknnE0eyeI6RCkf_di1QECVljDYizhFacW0vit" charset="UTF-8"></script><script src="js/jQuery.js"></script>
-        <link rel="stylesheet" href="css/bootstrap.css" >
-        <script src="js/bootstrap.js"></script>      
-        <script src="js/popper.js"></script>
-        <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="apple-touch-icon" href="/docs/4.4/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-        <link rel="icon" href="/docs/4.4/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-        <link rel="icon" href="/docs/4.4/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-        
-        <link rel="mask-icon" href="/docs/4.4/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
-        <link rel="icon" href="/docs/4.4/assets/img/favicons/favicon.ico">
-          <style>
-              .bd-placeholder-img {
-                font-size: 1.125rem;
-                text-anchor: middle;
-                -webkit-user-select: none;
-                -moz-user-select: none;
-                -ms-user-select: none;
-                user-select: none;
-              }
-
-              @media (min-width: 768px) {
-                .bd-placeholder-img-lg {
-                  font-size: 3.5rem;
-                }
-                 .articulsforms{
-                      font-size:20px;
-                  }
-                  .articulsheader{
-                      font-size:35px;
-                  }
-              }
-              @media (max-width:767px){
-                  .articulsforms{
-                      
-                  }
-              }
-            </style>
-             <link href="album.css" rel="stylesheet">
-
-</head>
-<body style="text-align: center; background-color:2b6a7f ">
     
 
 
@@ -56,26 +7,12 @@
 
 
   
-                <!-- Custom styles for this template -->
-                <!-- это топ или что-то вроде того 
-                Надо потом доделать  -->
-                <header style="">
-              <div class="collapse bg-dark" id="navbarHeader" style="">
-                <div class="container" style="">
-               
-
-                </div>
-              </div>
-              <div class="navbar navbar-dark bg-dark shadow-sm">
-                <div class="container d-flex justify-content-between">
-                    <!-- <a>""Логотип""</a> -->
-                  <a href="#" class="navbar-brand d-flex align-items-center">
-                      <strong>pro<span style="color:#4471e8;">sakhalin</span><span style="color:red">.info</span></strong>
-                  </a>
-                </div>
-              </div>
-            </header>
-
+    <!-- Custom styles for this template -->
+    <!-- это топ или что-то вроде того 
+    Надо потом доделать  -->
+    <?php
+    require_once 'top.php';
+    ?>
     
     <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl" role="document">
@@ -189,7 +126,7 @@
                                   <td align="middle">
                                       <!-- Extra large modal -->
                                       <div style="color:white; padding-right: 50px;">Дорогие друзья!<br>Мы постараемся в увлекательной форме рассказать Вам о нашем островном крае</div>
-                                                      <div style="width: 100%; text-align: center;color:#ffdf7e;margin-top: 0px; padding-right: 50px;">
+                                                      <div style="width: 100%; text-align: right;color:#ffdf7e;margin-top: 10px; padding-right: 20px;">
                                                           читать полность
                                                       </div>
 
@@ -210,7 +147,7 @@
                                   <td align="middle">
                                       <!-- Extra large modal -->
                                       <div style="color:white; padding-right: 50px;">На данный момент в Сахалинской области отсутствует место , где концентрировалась бы краеведческая информация.</div>
-                                                      <div style="width: 100%; text-align: center;color:#ffdf7e;margin-top: 0px; padding-right: 50px;">
+                                                      <div style="width: 100%; text-align: right;color:#ffdf7e;margin-top: 10px; padding-right: 20px;">
                                                           читать полность
                                                       </div>
 
@@ -239,62 +176,16 @@
                                 <div style="height:40px"></div>
 
                                 
-              
-                                <div>
-              <table style="width:100%; display:inline-block; text-align: center; border:solid 0px black" border="0" cellpadding="20px">
-                  <tr><td style="width:50%;padding:0px 20px 0px 20px; cursor:pointer;">
-                       <video  style="width:100%; display:inline-block;object-fit:cover;height: 351px" controls="controls" poster="poster1.png">
+                    <div>
+                        <video  style="width:100%; display:inline-block;" controls="controls" poster="poster1.png">
                             <source src="aniva.mp4">
                         </video>
-                      </td>
-                      <td style="width:50%;">
-                    <div class="card" style="width:100%;height:351px;cursor:pointer;">
-                        <div class="card-body">
-                          <a class="card-title articulsheader">Вспоминая историю</a>
-                          <p class="card-text articulsforms" style='margin-top:20px; margin-bottom:0px;'>В данном разделе представлена история островного края.</p>
-                          <p class="card-text articulsforms">Здесь представлены статьи на эту тему .</p>
-                           
-                        </div>
-                    </div>
-                      </td>
-                  </tr>
-                  <tr>
-                      <td style="width:50%;">
-                        <div class="card" style="width:100%;height:351px;cursor:pointer;">
-                            <div class="card-body">
-                              <a class="card-title articulsheader">Геополитика</a>
-                              <p class="card-text articulsforms" style='margin-top:20px; margin-bottom:0px;'>В данном разделе представлена история островного края.</p>
-                              <p class="card-text articulsforms">Здесь представлены статьи на эту тему .</p>
-                            
-                            </div>
-                        </div>
-                      </td>
-                      <td style="width:50%;">
-                        <div class="card" style="width:100%;height:351px;cursor:pointer;">
-                                <div class="card-body">
-                                  <a class="card-title articulsheader">История географических открытий</a>
-                                  <p class="card-text articulsforms" style='margin-top:20px; margin-bottom:0px;'>В данном разделе представлена история островного края.</p>
-                                  <p class="card-text articulsforms">Здесь представлены статьи на эту тему .</p>
-                                  
-                                </div>
-                        </div>          
-                      </td>
-                  </tr>
-                          <tr>
-                              <td style="width:50%;">
-                                <div class="card" style="width:100%;height:351px;cursor:pointer;">
-                                        <div class="card-body">
-                                          <a class="card-title articulsheader">Птицы Сахалина и Курильских островов</a>
-                                          <p class="card-text articulsforms" style='margin-top:20px; margin-bottom:0px;'>В данном разделе представлена история островного края.</p>
-                                          <p class="card-text articulsforms">Здесь представлены статьи на эту тему .</p>
-                                
-                                        </div>
-                                </div>
-                              </td>
-                      <td style="width:50%;">
-                          <img style="object-fit:cover;width:100%;"src="aa.jpg">
-                      </td>
-                          </tr>
+                     </div>
+                                <div style="height:40px;"></div>
+                                <div>
+              <table style="width:100%; display:inline-block; text-align: center; border:solid 0px black" border="0" cellpadding="20px">
+                  <tr><td style="width:50%;"><img style="object-fit:cover;width:100%;"src="aa.JPG"></td><td style="width:50%;"><img style="object-fit:cover;width:100%;" src="tt.JPG"></td></tr>
+                  <tr><td style="width:50%;"><img style="object-fit:cover;width:100%;" src="qq.JPG"></td><td style="width:50%;"><img style="object-fit:cover;width:100%;" src="ww.JPG"></td></tr>
               </table>
           </div>
                                  </div>
@@ -337,3 +228,5 @@
   <li class="list-group-item">Vestibulum at eros</li>
 </ul>
 </div> -->
+            
+    
